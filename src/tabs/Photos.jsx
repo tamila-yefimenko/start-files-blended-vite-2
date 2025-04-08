@@ -64,8 +64,8 @@ const Photos = () => {
         }
         setImages(prevImages => [...prevImages, ...photos]);
         setIsVisible(page < Math.ceil(total_results / per_page));
-        console.log(photos);
-        console.log(images);
+        // console.log(photos);
+        // console.log(images);
       } catch (error) {
         setError(error);
       } finally {
